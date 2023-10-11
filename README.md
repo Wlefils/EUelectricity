@@ -120,3 +120,8 @@ After analyzing the data, I found the most accurate forecasting method for both 
 
 For the 2022-23 Forecast, my best model predicts renewable generation will see a decline from its highs in 2021-2022, more closely resembling its 2019-2020 numbers. For non-renewables, my model predicts a pretty similar year to the previous one, with a bit of an uptick from 2022 to 2023 in the late spring-early summer months
 
+### External Links
+* [Eurostat Data Source](https://ec.europa.eu/eurostat/databrowser/view/NRG_CB_PEM__custom_3671182/default/table)
+* [Resume](https://wlefils.github.io/Will%20LeFils%20Resume.pdf)
+* [LinkedIn](https://www.linkedin.com/in/will-lefils-57b838132/)
+* [Portfolio Homepage](https://wlefils.github.io/)
