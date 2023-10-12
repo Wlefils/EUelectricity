@@ -115,7 +115,7 @@ As I briefly mentioned in the moving average section, exponential smoothing uses
 ![image](https://github.com/Wlefils/EUelectricity/assets/98787088/61c9c46a-3a73-42d3-86e0-75c28de3ccd3)
 
 ## Conclusion
-![image](https://github.com/Wlefils/EUelectricity/assets/98787088/d8d30019-9c28-4a1a-854e-60729836cf52)
+<img width="1080" alt="FinalOutput" src="https://github.com/Wlefils/EUelectricity/assets/98787088/ece44533-39e5-4bb3-a0a3-2e4cd9bcd4d3">
 
 After analyzing the data, I found the most accurate forecasting method for both renewables and non-renewable electricity generation. For the former, I used a combination of moving average, deseasonalization, and exponential smoothing techniques, resulting in the lowest MAPE of 4.39%. The three-month moving average was the single most accurate technique (5.09%). For the latter, I found deseasonalization to be the most accurate (lowest MAPE of 2.75%), followed by moving average. Based on the fact that the deseasonalized forecast was the most accurate, I conclude that seasonality is present in the non-renewable electricty generation, despite it not being apparent when I first plotted it. More non-renewable electricity is generated during the winter months, and less in the summer months. The same is true in the case of renewable energy, although the seasonality is more pronounced in renewables. Additionally, there does appear to be a positive trend in renewable and a slight decline in non-renewable electricity generation over the five year duration of the dataset. 
 
