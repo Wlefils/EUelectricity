@@ -5,7 +5,8 @@ In this project, I evaluated renewable and non-renewable electricity generation 
 
 The first step was to plot the data. This showed apparent seasonality in renewable electricity generation, with notably more generation during winter, while non-renewables seemed consistently static year-round. To evaluate each model's accuracy, I computed error measures, including MSE, MAD, and most crucially, MAPE, which indicates the average deviation of the forecast from actual values, with lower values indicating more accurate forecasts.
 
-![image](https://github.com/Wlefils/EUelectricity/assets/98787088/f841d296-7bc1-4276-89fb-fd4e412f35d2)
+<img width="1080" alt="PlotRawRata" src="https://github.com/Wlefils/EUelectricity/assets/98787088/0a8f56ad-fea6-44d0-9386-737b767c424b">
+
 
 I found a three-month moving average to be the most accurate forecasting method for renewables, and its accuracy was further improved when combined with exponential smoothing and deseasonalization. In contrast, exponential smoothing, deseasonalization, and linear trend models exhibited higher error levels. The moving average method was able to smooth out both short-term fluctuations and longer-term trends in the data, hence its accuracy in this project. There is a positive trend in renewable energy generation when looking at all five years of data. Despite this, **for the twelve months forecasted, my best model suggests renewables will see lower gigawatt-hours generated than in 2021-2022, more closely resembling their 2019-2022 numbers.**
 
@@ -13,7 +14,7 @@ For non-renewables, the deseasonalized model stood out as the most precise forec
 
 The final forecast chart and a comparative table of the error measures across models are presented below.
 
-![image](https://github.com/Wlefils/EUelectricity/assets/98787088/d42a3e76-6e73-4bc3-b5ce-cc72032d6fb6)
+<img width="1080" alt="FinalOutput" src="https://github.com/Wlefils/EUelectricity/assets/98787088/ece44533-39e5-4bb3-a0a3-2e4cd9bcd4d3">
 
 
 ![image](https://github.com/Wlefils/EUelectricity/assets/98787088/dceae680-1c0e-4c65-aaa4-876edde16705)
